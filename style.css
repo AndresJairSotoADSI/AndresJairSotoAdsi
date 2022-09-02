@@ -6,13 +6,14 @@
 h1{
     text-align: center;
     margin-top: 10px;
+    line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
 }
-/*Medidas relativas*/
+/*Propiedades de texto*/
 p{
-    margin-top: 20px;
-    background: blue;
-    font-size: 2em;
-    width: 70vw;
+   font-size: 2em;/*El tamño de letra*/
+   font-family: 'Times New Roman', Times, serif;/*El tipo de letra*/
+   line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
+   font-weight: 700;/*El grosor de las letras*/
 
 }
 
