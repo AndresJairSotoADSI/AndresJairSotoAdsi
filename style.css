@@ -11,7 +11,8 @@ h1{
 /*Propiedades de texto*/
 p{
    font-size: 2em;/*El tamño de letra*/
-   font-family: 'Times New Roman', Times, serif;/*El tipo de letra*/
+   font-family: 'Times New Roman', Times, serif;/*El tipo de letra
+   si no se encuenntra la primera se asignara la segunda*/
    line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
    font-weight: 700;/*El grosor de las letras*/
 
