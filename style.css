@@ -1,10 +1,19 @@
-
-/* Medidas relativas se  acomodaran al tamaño de una ventana mas pequeñas
-Son relativas a las dimensiones del contenedor donde se han definido. Por ejemplo %, es una unidad relativa, puesto que 30% de ancho no será lo mismo para un elemento situado dentro de un contenedor de 2000px */
-.contac-form{
-    /*1em equivale 16 pixeles Esta medidada la trae el navegador
-     1ex  equivale 0.5 em 
-     px
-     Font-size: 2em  será el doble del tamaño de la fuente del padre, cualquiera que sea. Y así sucesivamente por que se hereda*/
-    font-size: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+/*Medidas relativas*/
+p{
+    margin-top: 20px;
+    background: blue;
+    font-size: 2em;
+    width: 70vw;
+
+}
+
+
