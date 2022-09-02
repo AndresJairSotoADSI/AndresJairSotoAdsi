@@ -9,13 +9,33 @@ h1{
     line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
 }
 /*Propiedades de texto*/
-p{
-   font-size: 2em;/*El tamño de letra*/
-   font-family: 'Times New Roman', Times, serif;/*El tipo de letra
-   si no se encuenntra la primera se asignara la segunda*/
-   line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
-   font-weight: 700;/*El grosor de las letras*/
 
+.cajas{
+    width: 250px;
+    height: 300px;
+    background:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
 }
 
+.cajas h2{
+    color: rgb(188, 194, 194);
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.cajas ul,li{
+    color: rgb(188, 194, 194);
+ 
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+    list-style-type:none ;
+}
+.cajas p{
+   color: aquamarine;
+}
 
