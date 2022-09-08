@@ -1,41 +1,252 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+body{
+    background-image: url(./Img/FondoTecnologico.png);
 }
 h1{
     text-align: center;
-    margin-top: 10px;
-    line-height: 1.5;/* El tamaño que ocupa letra y su espacio*/
+    margin-top: 20px;
+    color: white;
+    font-size: 45px;
+    text-decoration: underline;
 }
 /*Propiedades de texto*/
+.container{
+    display:inline-block;
+    padding: 40px 40px;
 
-.cajas{
-    width: 250px;
-    height: 300px;
-    background:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+}
+
+.caja1{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background:rgb(255, 255, 255, 0.2);
+    margin-left: 20%;
+    margin-top: 80px;
+    padding: 10px;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
     
 }
+.botones button{
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+/*############################################*/
 
-.cajas h2{
-    color: rgb(188, 194, 194);
-    text-align: center;
-    margin-bottom: 20px;
+.botones1 button{
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones1 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones1 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+/*############################################*/
+.botones2 button{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px white;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones2 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones2 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+/*############################################*/
+.botones3 button{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones3 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones3 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+/*############################################*/
+.botones4 button{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones4 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones4 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+.caja2{
+    width: 500px;
+    height: 500px;
+    background:rgb(255, 255, 255, 0.2);
+    margin-left: 80%;
+    margin-top: 80px;
+    padding: 80px;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
     
 }
-
-.cajas ul,li{
-    color: rgb(188, 194, 194);
- 
-    font-size: 23px;
-    text-align: center;
-    margin-bottom: 30px;
-    list-style-type:none ;
+.form-control-label{
+    color: aliceblue;
+    font-size: 20px;
+    
 }
-.cajas p{
-   color: aquamarine;
+.form-control{
+    line-height: 10px;
 }
-
+    
+.botones3 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones3 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+/*############################################*/
+.botones5 button{
+    margin-right: 60px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones5 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones5 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+.botones6 button{
+    margin-right: 80px;
+    margin-left: 10px;
+    border: 2px solid rgb(240, 240, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-decoration-style: none;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 13px 1px rgb(211, 210, 210);
+}
+.botones6 button:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    background-color: #00BFFF;
+    color: aliceblue;
+   
+}
+.botones6 button a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
