@@ -1,21 +1,23 @@
-*{
+*{  
+    margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing:0;
 }
 body{
-    color:rgb(255, 251, 251);
+    color: aliceblue;
 }
 .container {
-    height: 500px;
     width: 500px;
+    height: 300px;
     text-align: center;
-    background: red;
+    background: rgb(119, 0, 255);
     margin: 10% auto;
     padding: 40px;
 }
 .container p{
     text-align: justify;
 }
-.lista{
-text-align: justify;
+.container span{
+    color: rgb(235, 231, 1);
+    font-size: 25px;
 }
