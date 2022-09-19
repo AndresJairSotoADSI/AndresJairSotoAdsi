@@ -1,20 +1,21 @@
-*{  
-    margin: 0;
+*{
     padding: 0;
-    box-sizing:0;
+    box-sizing: 0;
 }
 body{
-    color: aliceblue;
+    color:rgb(255, 251, 251);
 }
 .container {
+    height: 500px;
     width: 500px;
-    height: 300px;
     text-align: center;
-    background: rgb(119, 0, 255);
+    background: red;
     margin: 10% auto;
     padding: 40px;
 }
 .container p{
     text-align: justify;
-    margin-top: 40px;
+}
+.lista{
+text-align: justify;
 }
