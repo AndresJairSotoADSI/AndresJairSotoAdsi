@@ -1,23 +1,72 @@
-*{  
-    margin: 0;
-    padding: 0;
-    box-sizing:0;
+.display-4{
+    text-align: center;    
 }
-body{
-    color: aliceblue;
+.loco{
+    padding: 20px;
 }
-.container {
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    background: rgb(119, 0, 255);
-    margin: 10% auto;
-    padding: 40px;
+.caja1{
+    padding: 30px;
+    margin: 30px auto;
+    height: 500px;
+    width: 900px;
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+
 }
-.container p{
+.portada{
+    padding: 10px;
+}
+.text-center{
+    margin-top:40px;
+    background: url(./Img/azul.jpg);
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    border-radius: 8px;
+    -webkit-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+}
+.text-center img{
+    float: left;
+}
+.text-center p{
+    z-index: 1;
+    width: 450px;
+    height: 290px;
+    padding: 20px  20px;
+    margin-left: 120%;
+    border-radius: 8px;
     text-align: justify;
+    -webkit-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.72);
 }
-.container span{
-    color: rgb(235, 231, 1);
-    font-size: 25px;
+.text-center p b{
+    color: black;
+}
+.card-title{
+    text-align: center;
+    margin-top: -80;
+}
+.img-thumbnail{
+    border-radius: 50%;
+    margin: 20px 20px;
+    -webkit-box-shadow: -1px -1px 9px 4px rgba(240,232,240,1);
+    -moz-box-shadow: -1px -1px 9px 4px rgba(240,232,240,1);
+    box-shadow: -1px -1px 9px 4px rgba(240,232,240,1);
+}
+.exercice1,.exercice2,.exercice3,.exercice4,.exercice5,
+.exercice6,.exercice7,.exercice8,.exercice9,.exercice10,
+.exercice11,.exercice12,.exercice13{
+    padding: 40px;
+    height: 450px;
+    width: 850px;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px 0px 16px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: -1px 0px 16px 1px rgba(0,0,0,0.73);
+    box-shadow: -1px 0px 16px 1px rgba(0,0,0,0.73);
 }
