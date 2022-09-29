@@ -1,27 +1,18 @@
-let suma=0;
-let cant_alum=2;
-let cant_nota=5;
-let cont_alum=1;
-let cont_nota=1;
-let cant_nivel=0;
-let promedio;
-let notas;
-while (cont_alum<=cant_alum){
-    while(cont_nota<=cant_nota){
-        
-        notas=Float(prompt('digite las notas:'))
-        suma=suma+notas;
-        cont_nota+=1;
-        cont_alum+=1;
-    promedio=suma/cant_nota;
-    alert(promedio);
-    if (promedio<3.0){
-        cant_nivel+=1;
-        alert("Su nivel es"+cant_nivel);
-    }
-     
-    }
-}
+let segun=0;
+let avion=222222;
+let misil=222222;
+let aceleracionavion=20;
+let aceleracionmilsil=10; 
+while(aceleracionavion-aceleracionmilsil<=1000){
+    aceleracionavion+=20+aceleracionavion;
+    aceleracionmilsil+=10+aceleracionmilsil;
+    segun+=1;
+    alert("segundo"+segun);
+    alert("Distancia del avion"+aceleracionavion);
+    alert("Distancia del misil"+aceleracionmilsil);
+
+} 
+
 alert("Fin del proceso");  
 
 
