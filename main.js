@@ -1,20 +1,14 @@
-function escribirTablaMultiplicar(j){
-
-	document.write("<h2>Tabla de multiplicar del "+ j +"</h2>");
-
-	document.write("<ul>");
-	//i++ significa i=i+1;
-
-	for(i = 1;i<=10;i++){
-		document.write("<li>");
-		document.write(j + "x " + i + "= " + j * i);
-		document.write("</li>");
-	}
-
-	document.write("</ul>");
+let impar=0
+let par=1
+prompt(par)
+/*desarrollo del ejercicio*/
+for(let i=1;i<10;i++){
+    impar=par+4
+    par=impar-2
+    document.write(impar,)
+    document.write(par)
 }
-
-escribirTablaMultiplicar(5);
+   
 
 
 
