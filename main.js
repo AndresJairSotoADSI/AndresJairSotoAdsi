@@ -36,7 +36,7 @@ for (let i=1;i<n_estud;i++){
         }
            
         else{
-            if (cali_estud<1 && cali_estud>10){
+            if ((cali_estud<1) && (cali_estud>10)){
                 document.write("los estudiantes encuestados son:"+suma);
                 prom=suma1/suma;
                 document.write("el promedio es:"+prom);
