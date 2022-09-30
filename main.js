@@ -1,21 +1,8 @@
 /*for*/
-const miFuncion = () => {
-   let miValor = 2;
-   console.log(miValor);
+var firstCheck = false,
+    secondCheck = false,
+    access = firstCheck ? "Acceso Denegado" : secondCheck ? "Acceso Denegado" : "Acceso Permitido";
 
-   const funcionHija = () => {
-        console.log(miValor += 1);
-   }
-
-   return funcionHija;
-}
-
-const resultado = miFuncion();
-console.log(resultado);
-resultado();
-resultado();
-resultado();
-
-
+console.log( access ); // muestra "Acceso Permitido"
 
 
