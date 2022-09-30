@@ -97,6 +97,13 @@ function platzi() {
 platzi(); //true
 console.log(soyEstudiante); //true
 ```
+## ¿Qué es el for each?
+FOR EACH sirve para moverse por los elementos de una estructra de datos, como podría ser un vector, y realizar acciones para cada una de los elementos.
+```javascript
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+```
 
 
 

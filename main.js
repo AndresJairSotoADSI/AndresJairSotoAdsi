@@ -1,10 +1,7 @@
 /*for*/
-function platzi() {
-	const soyEstudiante = true;
-	console.log(soyEstudiante);
-}
 
-platzi(); // true
-console.log(soyEstudiante); // soyEstudiante is not defined
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
 
 
