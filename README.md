@@ -60,3 +60,13 @@ var firstCheck = false,
 
 console.log( access ); // muestra "Acceso Permitido"
 ```
+
+## Parámetros opcionales en JavaScript
+
+Los parámetros opcionales **se definen al final de la lista de parámetros después de los parámetros necesarios**. Si el autor de la llamada proporciona un argumento para algún parámetro de una sucesión de parámetros opcionales, debe proporcionar argumentos para todos los parámetros opcionales anteriores
+
+```javascript
+function foo(a, b=0, c=10) {
+  //...
+}
+```
