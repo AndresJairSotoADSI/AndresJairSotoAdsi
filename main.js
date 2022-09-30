@@ -1,14 +1,20 @@
 /*for*/
-for (let valor of miIterable) {
-   console.log(valor)
+const miFuncion = () => {
+   let miValor = 2;
+   console.log(miValor);
+
+   const funcionHija = () => {
+        console.log(miValor += 1);
+   }
+
+   return funcionHija;
 }
-// 1
-// 2
-// 3
 
-// ó
-
-[...miIterable] // [1, 2, 3]
+const resultado = miFuncion();
+console.log(resultado);
+resultado();
+resultado();
+resultado();
 
 
 
