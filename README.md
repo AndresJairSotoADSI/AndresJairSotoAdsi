@@ -124,3 +124,17 @@ var roots = numbers.map(function(num) {
     return Math.sqrt(num);
 });
 ```
+
+
+## ¿Qué es el search en JavaScript?
+El método search() ejecuta una búsqueda que encaje entre una expresión regular y el objeto String desde el que se llama.
+```javascript
+function testinput(re, str) {
+  var midstring;
+  if (str.search(re) != -1) {
+    midstring = ' contains ';
+  } else {
+    midstring = ' does not contain ';
+  }
+  console.log(str + midstring + re);
+```
