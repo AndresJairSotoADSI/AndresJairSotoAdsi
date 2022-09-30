@@ -114,3 +114,13 @@ const result = words.filter(word => word.length > 6);
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
 ```
+
+## ¿Qué es el map en JavaScript?
+El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos
+
+```javascript
+var numbers = [1, 4, 9];
+var roots = numbers.map(function(num) {
+    return Math.sqrt(num);
+});
+```

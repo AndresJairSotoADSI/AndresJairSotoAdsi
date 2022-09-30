@@ -1,7 +1,7 @@
 /*for*/
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-const result = words.filter(word => word.length > 6);
-console.log(result);
-// expected output: Array ["exuberant", "destruction", "present"]
+var numbers = [1, 4, 9];
+var roots = numbers.map(function(num) {
+    return Math.sqrt(num);
+});
 
 
