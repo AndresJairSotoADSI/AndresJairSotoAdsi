@@ -1,6 +1,10 @@
 /*for*/
-function foo(a, b=0, c=10) {
-   //...
- }
+function platzi() {
+	const soyEstudiante = true;
+	console.log(soyEstudiante);
+}
+
+platzi(); // true
+console.log(soyEstudiante); // soyEstudiante is not defined
 
 

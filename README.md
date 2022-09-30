@@ -70,3 +70,33 @@ function foo(a, b=0, c=10) {
   //...
 }
 ```
+
+## ¿Qué es el scope en JavaScript?
+
+El **scope** puede definirse como **el alcance que una variable tendrá en tu código**. En otras palabras, el scope **decide a qué variables tienes acceso** en cada parte del código. Existen dos tipos de scope, el **scope global** y el **scope local**.
+
+### Scope Local
+Cuando puedes acceder a una variable únicamente en cierta parte del código
+```javascript
+function platzi() {
+    const soyEstudiante = true;
+    console.log(soyEstudiante);
+}
+platzi(); 
+console.log(soyEstudiante);
+```
+### Scope Global
+Se dice que una variable está en el sope global cuando está declarada fuera de una función o de un bloque. 
+```javascript
+const soyEstudiante = true;
+
+function platzi() {
+	console.log(soyEstudiante);
+}
+
+platzi(); //true
+console.log(soyEstudiante); //true
+```
+
+
+
